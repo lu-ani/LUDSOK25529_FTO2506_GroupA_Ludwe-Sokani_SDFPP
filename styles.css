@@ -1,3 +1,7 @@
+:root{
+    font-family: Poppins;
+}
+
 .picture-bio{
     display:flex;
 }
@@ -8,12 +12,8 @@
 }
 
 h1{
-    font-size:36x;
-    font-family:Poppins;
 }
 
 h3{
-    font-size:22px;
-    font-family:Poppins;
     font-weight:normal;
 }
