@@ -59,4 +59,8 @@ section{
     background-color: #fff;
     border-radius: 29.04px;
 }
+
+.proficiency-skills{
+    display: flex;
+}
 }
