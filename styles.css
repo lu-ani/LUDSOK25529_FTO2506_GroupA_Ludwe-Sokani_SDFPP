@@ -25,9 +25,13 @@ body{
     margin-bottom: 47.9px;
 }
 
-.profile-picture img{
-    height:300.1px;
-    width:300.1px;
+.profile-picture{
+    height: 300.1px;
+    width: 300.1px;
+    object-fit: contain;
+    border-radius: 29.04px;
+    margin-right: 27px;
+}
 }
 
 h1{
