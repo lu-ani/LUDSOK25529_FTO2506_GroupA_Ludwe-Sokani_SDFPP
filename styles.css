@@ -1,0 +1,19 @@
+.picture-bio{
+    display:flex;
+}
+
+.profile-picture img{
+    height:300.1px;
+    width:300.1px;
+}
+
+h1{
+    font-size:36x;
+    font-family:Poppins;
+}
+
+h3{
+    font-size:22px;
+    font-family:Poppins;
+    font-weight:normal;
+}
