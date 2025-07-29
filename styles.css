@@ -86,4 +86,8 @@ section{
     margin-bottom: 48px;
 }
 
+.education-tools{
+    display: flex;
+}
+
 }
