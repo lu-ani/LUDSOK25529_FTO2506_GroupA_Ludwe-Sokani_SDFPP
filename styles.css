@@ -54,4 +54,9 @@ p{
     font-size: 22px;
     font-weight: normal;
 }
+
+section{
+    background-color: #fff;
+    border-radius: 29.04px;
+}
 }
