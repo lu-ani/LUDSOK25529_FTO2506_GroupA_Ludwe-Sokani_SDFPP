@@ -32,6 +32,16 @@ body{
     border-radius: 29.04px;
     margin-right: 27px;
 }
+
+header{
+    width: 994.69px;
+    background-color: #fff;
+    border-radius: 29.04px;
+    padding-top: 59px;
+    padding-bottom:59px;
+    padding-right: 69px;
+    padding-left: 69px;
+
 }
 
 h1{
