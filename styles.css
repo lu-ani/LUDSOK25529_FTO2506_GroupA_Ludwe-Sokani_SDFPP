@@ -16,7 +16,13 @@ body{
 }
 
 .picture-bio{
-    display:flex;
+    display: flex;
+    height: 300.1px;
+    width: 1321.79px;
+    margin-top: 63px;
+    margin: 59px;
+    margin-right: 59px;
+    margin-bottom: 47.9px;
 }
 
 .profile-picture img{
