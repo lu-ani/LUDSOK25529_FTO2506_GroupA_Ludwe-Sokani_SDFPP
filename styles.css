@@ -285,6 +285,12 @@ thead tbody tfoot{
     margin-left: 39px;
 }
 
+.projects .recent-project{
+    margin-left: 0;
+    background-color: #4A8B70;
+
+}
+
 }
 
 /*End of project box styling*/
