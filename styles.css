@@ -86,11 +86,14 @@ section{
 /*proficiency section*/
 
 .proficiency{
-    height: 428.37px;
     width: 563.9px;
     margin-left:63px;
     margin-right:48.1px;
-    margin-bottom: 48.63px;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    padding-right: 28px;
+}
+
 
 /*Table styling*/
 
