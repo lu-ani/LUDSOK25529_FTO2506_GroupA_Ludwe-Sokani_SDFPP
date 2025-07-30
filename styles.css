@@ -77,7 +77,10 @@ section{
 /*Poficiency and skill section*/
 
 .proficiency-skills{
+    object-fit: contain;
     display: flex;
+    height: 429px;
+    margin-bottom: 48.2px;
 }
 
 /*proficiency section*/
