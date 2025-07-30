@@ -122,6 +122,11 @@ thead tbody tfoot{
 
 /*Table content styling*/
 
+.proficiency th{
+    column-width: 500px;
+    font-size: 18px;
+}
+
 }
 
 /*Progress bars*/
