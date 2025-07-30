@@ -131,6 +131,12 @@ thead tbody tfoot{
     margin-bottom: 23.4px;
 }
 
+.skill{
+    font-size: 20px;
+    font-weight: bold;
+    width:40px;
+}
+
 }
 
 /*Progress bars*/
