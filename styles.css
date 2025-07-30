@@ -322,6 +322,13 @@ container{
     color: #FFFFFF;
 }
 
+.brief, .technologies, .responsibilities{
+    margin-left: 19px;
+    margin-right: 18.98px;
+    margin-bottom: 24px;
+    font-size: 19.36px;
+}
+
 }
 
 /*End of project box styling*/
