@@ -232,6 +232,19 @@ thead tbody tfoot{
     width: 672.81px;
 }
 
+.skills-container container{
+    display:inline-flex;
+    background-color: #4a8b7013;
+    font-size: 24.2px;
+    border-radius: 96.81px;
+    padding-top: 9.68px;
+    padding-bottom: 9.68px;
+    padding-left: 24.2px;
+    padding-right: 24.2px;
+    margin-right: 19px;
+    margin-bottom: 19px;
+}
+
 /*End of skills box syling*/
 
 /*End of proficiency and skill*/
