@@ -127,6 +127,10 @@ thead tbody tfoot{
     font-size: 18px;
 }
 
+.proficiency td{
+    margin-bottom: 23.4px;
+}
+
 }
 
 /*Progress bars*/
