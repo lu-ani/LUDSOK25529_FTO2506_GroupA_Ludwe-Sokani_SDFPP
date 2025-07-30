@@ -291,6 +291,12 @@ thead tbody tfoot{
 
 }
 
+
+container{
+    display:flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+}
 }
 
 /*End of project box styling*/
