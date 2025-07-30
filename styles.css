@@ -143,6 +143,69 @@ thead tbody tfoot{
 
 /*Progress bars*/
 
+.javascript-stat{
+    position:relative;
+    background-color:#fff;
+}
+
+.javascript-stat:after {
+    content:'\A';
+    position:absolute;
+    background:green;
+    border-radius: 7.26px;
+    top:0; bottom:0;
+    left:0; 
+    /*Set percentage known*/
+    width:100%;
+}
+
+.react-stat{
+    position:relative;
+    background-color:#fff;
+}
+
+.react-stat:after {
+    content:'\A';
+    position:absolute;
+    background:green;
+    border-radius: 7.26px;
+    top:0; bottom:0;
+    left:0; 
+    /*Set percentage known*/
+    width:70%;
+}
+
+.node-stat{
+    position:relative;
+    background-color:#fff;
+}
+
+.node-stat:after {
+    content:'\A';
+    position:absolute;
+    background:green;
+    border-radius: 7.26px;
+    top:0; bottom:0;
+    left:0; 
+    /*Set percentage known*/
+    width:30%;
+}
+
+.html-stat{
+    position:relative;
+    background-color:#fff;
+}
+
+.html-stat:after {
+    content:'\A';
+    position:absolute;
+    background:green;
+    border-radius: 7.26px;
+    top:0; bottom:0;
+    left:0; 
+    /*Set percentage known*/
+    width:55%;
+}
 
 /*End of proficiency section*/
 
