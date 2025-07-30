@@ -315,6 +315,13 @@ container{
     width: 22.71px;
     object-fit: cover;
 }
+.projects h3{
+    font-size: 24.2px;
+    margin-left: 19px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
 }
 
 /*End of project box styling*/
