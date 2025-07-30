@@ -16,6 +16,10 @@ body{
     background-color: #cdcdcd;
 }
 
+/*Actual container stylings*/
+
+/*Picture and Profile*/
+
 .picture-bio{
     display: flex;
     height: 300.1px;
@@ -26,6 +30,8 @@ body{
     margin-bottom: 47.9px;
 }
 
+/*Profile picture*/
+
 .profile-picture{
     height: 300.1px;
     width: 300.1px;
@@ -33,6 +39,8 @@ body{
     border-radius: 29.04px;
     margin-right: 27px;
 }
+
+/*Profile bio*/
 
 header{
     width: 994.69px;
@@ -54,15 +62,22 @@ p{
     font-size: 22px;
     font-weight: normal;
 }
+/*End of Profile stylings*/
+/*End of picture and profile*/
+
+/*Base box styling*/
 
 section{
     background-color: #fff;
     border-radius: 29.04px;
 }
 
+
 .proficiency-skills{
     display: flex;
 }
+
+/*proficiency section*/
 
 .proficiency{
     height: 428.37px;
@@ -70,13 +85,32 @@ section{
     margin-left:63px;
     margin-right:48.1px;
     margin-bottom: 48.63px;
+
+/*Table styling*/
+
+
+/*Table content styling*/
+
 }
+
+/*Progress bars*/
+
+
+/*End of proficiency section*/
+
+/*Skills box styling*/
 
 .skills{
     height: 429px;
     width: 706px;
     margin-right: 59px;
 }
+
+/*End of skills box syling*/
+
+/*End of proficiency and skill*/
+
+/*Project box styling*/
 
 .projects{
     height: 755.09px;
@@ -86,9 +120,16 @@ section{
     margin-bottom: 48px;
 }
 
+/*End of project box styling*/
+
+
+/*Education and tools section*/
+
 .education-tools{
     display: flex;
 }
+
+/*Education box stying*/
 
 .education{
     height: 847.06px;
@@ -97,12 +138,21 @@ section{
     margin-right: 21.31px;
 }
 
+/*End of education box styling*/
+
+/*Tools box styling*/
+
 .tools{
     height: 847.06px;
     width: 300.1px;
     margin-right: 60.9px;
     margin-bottom: 47.95px; 
 }
+
+/*End of tools box styling*/
+/*End of education and tools styling*/
+
+/*Experience box styling*/
 
 .experience{
     height: 640px;
@@ -111,6 +161,9 @@ section{
     margin-right: 61px;
     margin-bottom: 48.15px;
 }
+/*End of experience box styling*/
+
+/*Footer styling*/
 
 footer{
     background-color: orangered;
