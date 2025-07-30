@@ -275,6 +275,16 @@ thead tbody tfoot{
     padding-right: 33.54px;
 }
 
+.projects container{
+    background-color: #E7F0EC;
+    display: inline-flex;
+    justify-content: space-between;
+    border-radius: 29.04px;
+    height: inherit;
+    width: 280px;
+    margin-left: 39px;
+}
+
 }
 
 /*End of project box styling*/
