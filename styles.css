@@ -102,6 +102,23 @@ section{
 
 /*Table styling*/
 
+table{
+    table-layout: fixed;
+    height: 245.69px;
+    margin: 0;
+    padding: 0;
+    border-collapse: separate;
+    border-spacing: 25px;
+}
+
+thead tbody tfoot{
+    table-layout: fixed;
+    display:grid;
+    height: 245.69px;
+    width:509px;
+    padding:0;
+    margin:0;
+}
 
 /*Table content styling*/
 
