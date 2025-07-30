@@ -151,7 +151,7 @@ thead tbody tfoot{
 .javascript-stat:after {
     content:'\A';
     position:absolute;
-    background:green;
+    background: #4A8B70;
     border-radius: 7.26px;
     top:0; bottom:0;
     left:0; 
@@ -167,7 +167,7 @@ thead tbody tfoot{
 .react-stat:after {
     content:'\A';
     position:absolute;
-    background:green;
+    background:#4A8B70;
     border-radius: 7.26px;
     top:0; bottom:0;
     left:0; 
@@ -183,7 +183,7 @@ thead tbody tfoot{
 .node-stat:after {
     content:'\A';
     position:absolute;
-    background:green;
+    background: #4A8B70;
     border-radius: 7.26px;
     top:0; bottom:0;
     left:0; 
@@ -199,7 +199,7 @@ thead tbody tfoot{
 .html-stat:after {
     content:'\A';
     position:absolute;
-    background:green;
+    background: #4A8B70;
     border-radius: 7.26px;
     top:0; bottom:0;
     left:0; 
