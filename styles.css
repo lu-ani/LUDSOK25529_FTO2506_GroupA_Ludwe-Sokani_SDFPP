@@ -299,6 +299,22 @@ container{
     /*To remove base margins for wrap*/
     align-content:flex-start;
 }
+
+.year-heart{
+    height: 36px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 21px;
+    padding-bottom:16px;
+    padding-right: 15.38px;
+}
+
+.heart{
+    height: 26.62px;
+    width: 22.71px;
+    object-fit: cover;
+}
 }
 
 /*End of project box styling*/
