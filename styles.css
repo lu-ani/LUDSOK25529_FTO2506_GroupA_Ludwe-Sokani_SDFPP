@@ -291,10 +291,12 @@ thead tbody tfoot{
 
 }
 
+/*Styling inside the various containers*/
 
 container{
     display:flex;
     flex-wrap: wrap;
+    /*To remove base margins for wrap*/
     align-content:flex-start;
 }
 }
