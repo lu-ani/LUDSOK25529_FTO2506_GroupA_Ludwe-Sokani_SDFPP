@@ -260,6 +260,14 @@ thead tbody tfoot{
     padding-bottom: 43px;
 }
 
+.projects h2{
+    text-align: center;
+    font-size: 33.88px;
+    font-weight:bold;
+    margin-bottom: 35px;
+    padding: 5.2px;
+}
+
 }
 
 /*End of project box styling*/
