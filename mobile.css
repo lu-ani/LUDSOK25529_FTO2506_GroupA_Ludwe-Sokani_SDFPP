@@ -1,0 +1,862 @@
+:root{
+    font-family: Poppins;
+    font-weight:none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    width:402px;
+    padding:0;
+    margin:0;
+    background-color: #cdcdcd;
+}
+
+/*Actual container stylings*/
+
+/*Picture and Profile*/
+
+.picture-bio{
+    display: flex;
+    height: 137px;
+    width: 310px;
+    margin-top: 63px;
+    margin: 59px;
+    margin-right: 59px;
+    margin-bottom: 47.9px;
+}
+
+/*Profile picture*/
+
+.profile-picture{
+    height: 300.1px;
+    width: 300.1px;
+    object-fit: contain;
+    border-radius: 29.04px;
+    margin-right: 27px;
+}
+
+/*Profile bio*/
+
+header{
+    width: 994.69px;
+    background-color: #fff;
+    border-radius: 29.04px;
+    padding-top: 59px;
+    padding-bottom:59px;
+    padding-right: 69px;
+    padding-left: 69px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p{
+    color: #5C5C5C;
+    font-size: 22px;
+    font-weight: normal;
+}
+/*End of Profile stylings*/
+/*End of picture and profile*/
+
+/*Base box styling*/
+
+section{
+    background-color: #fff;
+    border-radius: 29.04px;
+}
+
+/*End of base box stylings*/
+
+/*Poficiency and skill section*/
+
+.proficiency-skills{
+    object-fit: contain;
+    display: flex;
+    height: 429px;
+    margin-bottom: 48.2px;
+}
+
+/*proficiency section*/
+
+.proficiency{
+    width: 563.9px;
+    margin-left:63px;
+    margin-right:48.1px;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    padding-right: 28px;
+}
+
+.proficiency h2{
+    margin: 0;
+    font-size:33.8px;
+    padding-left: 28px;
+}
+
+/*Table styling*/
+
+table{
+    table-layout: fixed;
+    height: 245.69px;
+    margin: 0;
+    padding: 0;
+    border-collapse: separate;
+    border-spacing: 25px;
+}
+
+thead tbody tfoot{
+    table-layout: fixed;
+    display:grid;
+    height: 245.69px;
+    width:509px;
+    padding:0;
+    margin:0;
+}
+
+/*Table content styling*/
+
+.proficiency th{
+    column-width: 500px;
+    font-size: 18px;
+}
+
+.proficiency td{
+    margin-bottom: 23.4px;
+}
+
+.skill{
+    font-size: 20px;
+    font-weight: bold;
+    width:40px;
+}
+
+.skill-html{
+    font-weight: bold;
+}
+
+/*Progress bars*/
+
+.javascript-stat{
+    position:relative;
+    background-color:#fff;
+}
+
+.javascript-stat:after {
+    content:'\A';
+    position:absolute;
+    background: #4A8B70;
+    border-radius: 7.26px;
+    top:0; bottom:0;
+    left:0; 
+    /*Set percentage known*/
+    width:100%;
+}
+
+.react-stat{
+    position:relative;
+    background-color:#fff;
+}
+
+.react-stat:after {
+    content:'\A';
+    position:absolute;
+    background:#4A8B70;
+    border-radius: 7.26px;
+    top:0; bottom:0;
+    left:0; 
+    /*Set percentage known*/
+    width:70%;
+}
+
+.node-stat{
+    position:relative;
+    background-color:#fff;
+}
+
+.node-stat:after {
+    content:'\A';
+    position:absolute;
+    background: #4A8B70;
+    border-radius: 7.26px;
+    top:0; bottom:0;
+    left:0; 
+    /*Set percentage known*/
+    width:30%;
+}
+
+.html-stat{
+    position:relative;
+    background-color:#fff;
+}
+
+.html-stat:after {
+    content:'\A';
+    position:absolute;
+    background: #4A8B70;
+    border-radius: 7.26px;
+    top:0; bottom:0;
+    left:0; 
+    /*Set percentage known*/
+    width:55%;
+}
+
+/*End of proficiency section*/
+
+/*Skills box styling*/
+
+.skills{
+    height: 429px;
+    width: 706px;
+    margin-right: 59px;
+}
+
+.skills h2{
+    margin-left:28px;
+    margin-top: 28px;
+    font-size: 33.88px;
+}
+
+.skills-container{
+    margin-top:39px;
+    margin-bottom: 31.47px;
+    margin-left: 28px;
+    margin-right: 5.19px;
+    height: 279.53px;
+    width: 672.81px;
+}
+
+.skills-container container{
+    display: inline-flex;
+   /* background-color: #4a8b7013; */
+    background-color: #ECF4F1;
+    font-size: 24.2px;
+    border-radius: 96.81px;
+    padding-top: 9.68px;
+    padding-bottom: 9.68px;
+    padding-left: 24.2px;
+    padding-right: 24.2px;
+    margin-right: 19px;
+    margin-bottom: 19px;
+}
+
+/*End of skills box syling*/
+
+/*End of proficiency and skill*/
+
+/*Project box styling*/
+
+.projects{
+    width: 1318.08px;
+    margin-left: 63px;
+    margin-right: 58.92px;
+    margin-bottom: 48px;
+    padding-top: 35px;
+    padding-bottom: 43px;
+}
+
+.projects h2{
+    text-align: center;
+    font-size: 33.88px;
+    font-weight:bold;
+    margin-bottom: 35px;
+    padding: 5.2px;
+}
+
+.projects-container{
+    height: 581px;
+    width: 1251px;
+    padding-left: 33.54px;
+    padding-right: 33.54px;
+}
+
+.projects container{
+    background-color: #E7F0EC;
+    display: inline-flex;
+    justify-content: space-between;
+    border-radius: 29.04px;
+    height: inherit;
+    width: 280px;
+    margin-left: 39px;
+}
+
+.projects .recent-project{
+    margin-left: 0;
+    background-color: #4A8B70;
+
+}
+
+/*Styling inside the various containers*/
+
+container{
+    display:flex;
+    flex-wrap: wrap;
+    /*To remove base margins for wrap*/
+    align-content:flex-start;
+}
+
+.recent-project .year-heart{
+    height: 36px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom:24px;
+    padding-right: 19.87px;
+}
+
+.year-project svg{
+    height: 26.62px;
+    width: 22.71px;
+    object-fit: cover;
+}
+
+.projects h3{
+    font-size: 24.2px;
+    margin-left: 19px;
+    margin-bottom: 24px;
+}
+
+.recent-project h3, .recent-project p{
+        color: #FFFFFF;
+}
+
+.recent-project .brief, .recent-project .technologies, .responsibilities{
+    margin-left: 19px;
+    margin-right: 18.98px;
+    margin-bottom: 24px;
+    font-size: 19.36px;
+}
+
+.recent-project .responsibilities{
+    margin-bottom: 43px;
+}
+
+.year-heart{
+    height: 36px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 21px;
+    padding-bottom:16px;
+    padding-right: 15.38px;
+}
+
+.brief, .technologies, .responsibilities{
+    margin-left: 19px;
+    margin-right: 18.98px;
+    margin-bottom: 16px;
+    font-size: 19.36px;
+}
+
+.responsibilities{
+    margin-bottom: 21px;
+}
+
+.project h3, .project p{
+        color: #000000;
+}
+/*End of project box styling*/
+
+
+/*Education and tools section*/
+
+.education-tools{
+    display: flex;
+    height: 847.06px;
+    margin-bottom: 47.95px; 
+}
+
+/*Education box stying*/
+
+.education{
+    width: 994.69px;
+    margin-left: 63px;
+    margin-right: 21.31px;
+    padding-top: 29px;
+}
+
+.education h2{
+    padding:0;
+    margin-left: 34px;
+    font-size: 33.88px;
+}
+
+/*Styling education cards*/
+
+.education container{
+    padding:0;
+    display: block;
+    height: 235px; /*should be 242.02 but need to figure what's wrong*/
+    width: 936.31px;
+    background-color: #E7F0EC;
+    border-radius: 29.04px;
+    margin-top: 15px;
+    margin-left: 29px;
+    margin-right: 29.08px;
+}
+
+.education .recent-education{
+    background-color: #4A8B70;
+}
+
+/*Styling inside the various cards*/
+
+/*Recent education card*/
+.recent-education .information-learnt{
+    display: flex;
+    margin-top: 34.01px;
+    margin-bottom: 37.25px;
+    margin-left: 37.25px;
+    margin-right: 30.2px;
+}
+
+.recent-education .information{
+    height: 100.25px;
+    width: 253px;
+}
+
+.recent-education ul {
+    margin-top:0;
+}
+
+.recent-education li{
+    font-size: 19.36px;
+}
+
+.recent-education p, .recent-education li, .recent-education h4, .recent-education h3{
+    color: #ffffff;
+}
+
+.recent-education p{
+    width:inherit;
+    font-weight: normal;
+    font-size: 19.36px;
+}
+
+/*Education card 2*/
+
+.education-2 .information-learnt{
+    display: flex;
+    margin-top: 34.01px;
+    margin-bottom: 37.25px;
+    margin-left: 37.25px;
+    margin-right: 30.2px;
+}
+
+.education-2 .information{
+    height: 129px;
+    width: 267px;
+}
+
+.education-2 ul {
+    margin-top:0;
+}
+
+.education-2 li{
+    font-size: 19.36px;
+}
+
+.education-2 p, .education-2 li, .education-2 h4, .education-2 h3{
+    color: #000000;
+}
+
+.education-2 p{
+    width:inherit;
+    font-weight: normal;
+    font-size: 19.36px;
+}
+
+/*Education card 3*/
+
+.education-3 .information-learnt{
+    display: flex;
+    margin-top: 34.01px;
+    margin-bottom: 37.25px;
+    margin-left: 37.25px;
+    margin-right: 30.2px;
+}
+
+.education-3 .information{
+    height: 129px;
+    width: 267px;
+}
+
+.education-3 ul {
+    margin-top:0;
+}
+
+.education-3 li{
+    font-size: 19.36px;
+}
+
+.education-3 p, .education-2 li, .education-2 h4, .education-2 h3{
+    color: #000000;
+}
+
+.education-3 p{
+    width:inherit;
+    font-weight: normal;
+    font-size: 19.36px;
+}
+
+/*End of education box styling*/
+
+/*Tools box styling*/
+
+.tools{
+    height: 847.06px;
+    width: 300.1px;
+    margin-right: 60.9px;
+}
+
+.tools h2{
+    font-size: 33.88px;
+    margin-top: 32.16px;
+    margin-left: 106.5px;
+    margin-right: 103.6px;
+    margin-bottom: 36px;
+}
+
+.tools h3{
+    font-size: 12.1px;
+    background-color: #000000;
+    color:#cdcdcd;
+    width: max-content;
+    padding-top: 4.84px;
+    padding-bottom: 4.84px;
+    padding-left: 14.52px;
+    padding-right: 14.52px;
+    border-radius: 142.79px;
+}
+
+svg{
+    height: 41.14px;
+    width: 41.14px;
+}
+
+/*languages box styling*/
+
+.languages-header{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 103.98px;
+}
+
+.languages-icons{
+    margin-left: 58px;
+    margin-right: 58.1px;
+    margin-bottom: 29.04px;
+    padding-top: 39px;
+    padding-left:31px;
+    padding-right: 31.56px;
+    padding-bottom: 39px;
+    border-radius: 14.52px;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 39px;
+    row-gap: 39px;;
+    background-color: #E7F0EC;
+}
+
+/*Design box styling*/
+
+.design-header{
+    position:absolute;
+    margin-top: -15px;
+    margin-left: 113.66px;
+}
+
+.design-icons{
+    margin-left: 58px;
+    margin-right: 58.1px;
+    margin-bottom: 29.04px;
+    padding-top: 31px;
+    padding-left:31px;
+    padding-right: 31.56px;
+    padding-bottom: 12.72px;;
+    border-radius: 14.52px;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 36px;
+    row-gap: 21px;;
+    background-color: #E7F0EC;
+}
+
+/*Tools box styling*/
+
+.tools-header{
+    position:absolute;
+    margin-top: -15px;
+    margin-left: 120.92px;
+}
+
+.tools-icons{
+    margin-left: 58px;
+    margin-right: 58.1px;
+    margin-bottom: 29.04px;
+    padding-top: 38.72px;
+    padding-left:31px;
+    padding-right: 31.56px;
+    padding-bottom: 39.72px;
+    border-radius: 14.52px;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 39px;
+    row-gap: 38.72px;;
+    background-color: #E7F0EC;
+}
+
+/*End of tools box styling*/
+/*End of education and tools styling*/
+
+/*Experience box styling*/
+
+.experience{
+    height: 640px;
+    width: 1316px;
+    margin-left: 63px;
+    margin-right: 61px;
+    margin-bottom: 48.15px;
+}
+
+/*Styling experience cards*/
+
+div.experience{
+    margin: 0;
+}
+
+.experience{
+    padding-top: 31px;
+}
+.experience h2{
+    font-size: 33.88px;
+    margin-left: 27px;
+}
+
+.experience container{
+    display: block;
+    height: 145px;
+    width: 1260px;
+    background-color: #E7F0EC;
+    border-radius: 29.04px;
+    margin-top: 30px;
+    margin-left: 27px;
+    margin-right: 29px;
+}
+
+.experience .recent-experience{
+    background-color: #4A8B70;
+}
+
+/*Recent experience card*/
+
+.recent-experience .information-learnt{
+    display: flex;
+    margin-bottom: 39px;
+    margin-left: 10px;
+    margin-right: 39px;
+}
+
+.recent-experience .information{
+    margin-top: 19px;
+    margin-left: 25px;
+    margin-bottom: 25.75px;
+}
+
+.recent-experience h4 .course{
+    font-size: 19.36px;
+}
+
+.recent-experience h3{
+    font-size: 23.2px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.recent-experience .learnt{
+    margin-top: 19px;
+    margin-right: 39px;
+    margin-bottom:39px;
+}
+
+.recent-experience ul {
+    margin-top:0;
+}
+
+.recent-experience li{
+    font-size: 19.36px;
+}
+
+.recent-experience p, .recent-experience li, .recent-experience h4, .recent-experience h3{
+    color: #ffffff;
+}
+
+.recent-experience{
+    width:inherit;
+    font-weight: normal;
+    font-size: 19.36px;
+}
+
+.badge{
+    position: absolute;
+    height:20px;
+    width: max-content;
+    background-color: #D76239;
+    color:#ffffff;
+    border-radius: 142.79px;
+    margin-top: 19px;
+    margin-left: 1130px;
+    margin-bottom: 95.32px;
+}
+
+.recent-experience special{
+    font-size: 14.52px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/*Experience 2 card*/
+
+.experience-2 .information-learnt{
+    display: flex;
+    margin-bottom: 39px;
+    margin-left: 10px;
+    margin-right: 39px;
+}
+
+.experience-2 .information{
+    margin-top: 19px;
+    margin-left: 25px;
+    margin-bottom: 25.75px;
+}
+
+.experience-2 h4 .course{
+    font-size: 19.36px;
+}
+
+.experience-2 h3{
+    font-size: 23.2px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.experienc-2 .learnt{
+    margin-top: 19px;
+    margin-right: 39px;
+    margin-bottom:39px;
+}
+
+.experience-2 ul {
+    position: absolute;
+    margin-top:31.1px;
+    margin-left: -10px;
+    width: 943px;
+}
+
+.experience-2 li{
+    font-size: 19.36px;
+}
+
+.experience-2 p, .experience-2 li, .experience-2 h4, .experience-2 h3{
+    color: #000000;
+}
+
+.experience-2{
+    width:inherit;
+    font-weight: normal;
+    font-size: 19.36px;
+}
+
+/*Experience 3 card*/
+
+.experience-3 .information-learnt{
+    display: flex;
+    margin-bottom: 39px;
+    margin-left: 10px;
+    margin-right: 39px;
+}
+
+.experience-3 .information{
+    margin-top: 19px;
+    margin-left: 25px;
+    margin-bottom: 25.75px;
+}
+
+.experience-3 h4 .course{
+    font-size: 19.36px;
+}
+
+.experience-3 h3{
+    font-size: 23.2px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.experienc-3 .learnt{
+    margin-top: 19px;
+    margin-right: 39px;
+    margin-bottom:39px;
+}
+
+.experience-3 ul {
+    position: absolute;
+    margin-top:31.1px;
+    margin-left: -10px;
+    width: 943px;
+}
+
+.experience-3 li{
+    font-size: 19.36px;
+}
+
+.experience-3 p, .experience-3 li, .experience-3 h4, .experience-3 h3{
+    color: #000000;
+}
+
+.experience-3{
+    width:inherit;
+    font-weight: normal;
+    font-size: 19.36px;
+}
+
+/*End of experience box styling*/
+
+/*Footer styling*/
+
+footer{
+    background-color: #D76239;
+    height: 128px;
+    width: 1300px;
+    border-radius: 29.04px;
+    margin-left: 59px;
+    margin-right: 59px;
+    margin-bottom: 40.85px;
+    padding-top: 29.04px;
+    padding-left: 29.04px;
+}
+
+footer h2{
+    color:#FFFFFF;
+    font-size: 33.88px;
+}
+
+.details{
+    display: flex;
+    padding-top: 12.2px;
+}
+
+footer p{
+    color:#FFFFFF;
+    font-size: 24.2;
+    font-weight:lighter;
+    margin-right: 19.36px;
+}
