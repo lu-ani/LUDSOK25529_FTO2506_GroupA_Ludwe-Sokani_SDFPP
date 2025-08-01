@@ -521,6 +521,11 @@ container{
     padding-right: 14.52px;
     border-radius: 142.79px;
 }
+
+svg{
+    height: 41.14px;
+    width: 41.14px;
+}
 }
 
 /*End of tools box styling*/
