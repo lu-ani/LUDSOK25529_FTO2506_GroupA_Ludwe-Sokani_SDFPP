@@ -484,10 +484,27 @@ container{
 /*Tools box styling*/
 
 .tools{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 26px;
+    grid-row-gap: 0px;
     height: 847.06px;
     width: 345px;
     margin-left: 43px;
     margin-right: 60.9px;
+}
+
+.tools #one{
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.tools #two{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.tools #three{
+    grid-area: 1 / 1 / 2 / 2;
 }
 
 .tools h2{
