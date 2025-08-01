@@ -316,6 +316,7 @@ container{
     width: 22.71px;
     object-fit: cover;
 }
+
 .projects h3{
     font-size: 24.2px;
     margin-left: 19px;
@@ -368,6 +369,8 @@ container{
 
 .education-tools{
     display: flex;
+    height: 847.06px;
+    margin-bottom: 47.95px; 
 }
 
 /*Education box stying*/
