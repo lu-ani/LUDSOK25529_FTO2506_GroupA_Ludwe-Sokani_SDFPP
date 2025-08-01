@@ -387,6 +387,9 @@ container{
     margin-left: 34px;
     font-size: 33.88px;
 }
+
+/*Styling education cards*/
+
 .education container{
     padding:0;
     display: block;
@@ -402,6 +405,10 @@ container{
 .education .recent-education{
     background-color: #4A8B70;
 }
+
+/*Styling inside the various cards*/
+
+/*Recent education card*/
 .recent-education .information-learnt{
     display: flex;
     margin-top: 34.01px;
@@ -432,6 +439,9 @@ container{
     font-weight: normal;
     font-size: 19.36px;
 }
+
+/*Education card 2*/
+
 .education-2 .information-learnt{
     display: flex;
     margin-top: 34.01px;
@@ -462,6 +472,9 @@ container{
     font-weight: normal;
     font-size: 19.36px;
 }
+
+/*Education card 3*/
+
 .education-3 .information-learnt{
     display: flex;
     margin-top: 34.01px;
@@ -501,7 +514,8 @@ container{
     height: 847.06px;
     width: 300.1px;
     margin-right: 60.9px;
-    margin-bottom: 47.95px; 
+}
+
 .tools h2{
     font-size: 33.88px;
     margin-top: 32.16px;
@@ -526,6 +540,9 @@ svg{
     height: 41.14px;
     width: 41.14px;
 }
+
+/*languages box styling*/
+
 .languages-header{
     position: absolute;
     margin-top: -15px;
@@ -547,6 +564,9 @@ svg{
     row-gap: 39px;
     background-color: #E7F0EC;
 }
+
+/*Design box styling*/
+
 .design-header{
     position:absolute;
     margin-top: -15px;
@@ -568,6 +588,9 @@ svg{
     row-gap: 21px;;
     background-color: #E7F0EC;
 }
+
+/*Tools box styling*/
+
 .tools-header{
     position:absolute;
     margin-top: -15px;
@@ -602,6 +625,9 @@ svg{
     margin-right: 61px;
     margin-bottom: 48.15px;
 }
+
+/*Styling experience cards*/
+
 div.experience{
     margin: 0;
 }
@@ -628,6 +654,9 @@ div.experience{
 .experience .recent-experience{
     background-color: #4A8B70;
 }
+
+/*Recent experience card*/
+
 .recent-experience .information-learnt{
     display: flex;
     margin-bottom: 39px;
@@ -694,6 +723,9 @@ div.experience{
     padding-left: 8px;
     padding-right: 8px;
 }
+
+/*Experience 2 card*/
+
 .experience-2 .information-learnt{
     display: flex;
     margin-bottom: 39px;
@@ -743,6 +775,9 @@ div.experience{
     font-weight: normal;
     font-size: 19.36px;
 }
+
+/*Experience 3 card*/
+
 .experience-3 .information-learnt{
     display: flex;
     margin-bottom: 39px;
@@ -792,6 +827,7 @@ div.experience{
     font-weight: normal;
     font-size: 19.36px;
 }
+
 /*End of experience box styling*/
 
 /*Footer styling*/
