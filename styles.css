@@ -526,6 +526,27 @@ svg{
     height: 41.14px;
     width: 41.14px;
 }
+.languages-header{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 103.98px;
+}
+
+.languages-icons{
+    margin-left: 58px;
+    margin-right: 58.1px;
+    margin-bottom: 29.04px;
+    padding-top: 39px;
+    padding-left:31px;
+    padding-right: 31.56px;
+    padding-bottom: 39px;
+    border-radius: 14.52px;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 39px;
+    row-gap: 39px;
+    background-color: #E7F0EC;
+}
 }
 
 /*End of tools box styling*/
