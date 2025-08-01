@@ -41,6 +41,14 @@ body{
 
 /*Profile bio*/
 
+.bio{
+    display:none;
+}
+
+.bio-hidden{
+    display:block;
+}
+
 header{
     width: 163px;
     background-color: #fff;
