@@ -233,8 +233,9 @@ thead tbody tfoot{
 }
 
 .skills-container container{
-    display:inline-flex;
-    background-color: #4a8b7013;
+    display: inline-flex;
+   /* background-color: #4a8b7013; */
+    background-color: #ECF4F1;
     font-size: 24.2px;
     border-radius: 96.81px;
     padding-top: 9.68px;
