@@ -1,4 +1,5 @@
-<a href"https://www.loom.com/share/85c9fcd9974647a4a77211a13352eb83?sid=2848894d-7c09-48c2-aff3-cc6ccd97d3d6">Loom 1 (5min)</a>
+Loom part 1: https://www.loom.com/share/85c9fcd9974647a4a77211a13352eb83?sid=2848894d-7c09-48c2-aff3-cc6ccd97d3d6
+Loom part 2: https://www.loom.com/share/51091b053f534c1b8d9a01a92053b342?sid=26d634e0-88dc-4c1c-b0c9-d87f56bd45da
 
 
 # 💼 SDFPP Resume Project
