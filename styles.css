@@ -502,6 +502,25 @@ container{
     width: 300.1px;
     margin-right: 60.9px;
     margin-bottom: 47.95px; 
+.tools h2{
+    font-size: 33.88px;
+    margin-top: 32.16px;
+    margin-left: 106.5px;
+    margin-right: 103.6px;
+    margin-bottom: 36px;
+}
+
+.tools h3{
+    font-size: 12.1px;
+    background-color: #000000;
+    color:#cdcdcd;
+    width: max-content;
+    padding-top: 4.84px;
+    padding-bottom: 4.84px;
+    padding-left: 14.52px;
+    padding-right: 14.52px;
+    border-radius: 142.79px;
+}
 }
 
 /*End of tools box styling*/
