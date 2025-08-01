@@ -177,6 +177,11 @@ table{
 }
 
 .projects-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 7px;
     height: 300px;
     width: 291.29px;
     padding-left: 25.86px;
@@ -209,15 +214,17 @@ table{
     display: inline-flex;
     justify-content: space-between;
     border-radius: 12.11px;
-    height: inherit;
+    height: 267px;
     width: 140px;
-    margin-left: 39px;
+}
+
+.projects #two, .projects #four{
+    height: 325px;
 }
 
 .projects .recent-project{
     margin-left: 0;
     background-color: #4A8B70;
-
 }
 
 /*Styling inside the various containers*/
@@ -230,36 +237,50 @@ container{
 }
 
 .recent-project .year-heart{
-    height: 36px;
+    height: 18px;
     width: 100%;
     display:flex;
     justify-content: space-between;
-    padding-top: 22px;
-    padding-bottom:24px;
-    padding-right: 19.87px;
+    padding-top: 12.18px;
+    padding-bottom:9.69px;
+    padding-right: 9.69px;
 }
 
-.year-project svg{
-    height: 26.62px;
-    width: 22.71px;
-    object-fit: cover;
+.project .year-heart{
+    height: 18px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 12.18px;
+    padding-bottom:9.69px;
+    padding-right: 9.69px;
+}
+
+.project svg{
+    display: none;
+}
+
+.recent-project svg{
+    height: 13.37px;
+    width: 13.32px;
 }
 
 .projects h3{
-    font-size: 24.2px;
+    width:103px;
+    font-size: 12.11px;
     margin-left: 19px;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
 }
 
 .recent-project h3, .recent-project p{
         color: #FFFFFF;
 }
 
-.recent-project .brief, .recent-project .technologies, .responsibilities{
+.recent-project .brief, .recent-project .technologies, .recent-project .responsibilities{
     margin-left: 19px;
     margin-right: 18.98px;
-    margin-bottom: 24px;
-    font-size: 19.36px;
+    margin-bottom: 9.69px;
+    font-size: 9.69px;
 }
 
 .recent-project .responsibilities{
@@ -276,15 +297,25 @@ container{
     padding-right: 15.38px;
 }
 
-.brief, .technologies, .responsibilities{
+.project .brief, .project .technologies, .project .responsibilities{
     margin-left: 19px;
     margin-right: 18.98px;
-    margin-bottom: 16px;
-    font-size: 19.36px;
+    margin-bottom: 9.69px;
+    font-size: 9.69px;
 }
 
 .responsibilities{
     margin-bottom: 21px;
+}
+
+#three .responsibilities{
+    display: none;
+}
+
+.responsibilities-hidden{
+    display: block;
+    font-size: 9.69px;
+    margin-left:19px;
 }
 
 .project h3, .project p{
@@ -297,6 +328,7 @@ container{
 
 .education-tools{
     display: flex;
+    flex-direction: column;
     height: 847.06px;
     margin-bottom: 47.95px; 
 }
@@ -304,16 +336,18 @@ container{
 /*Education box stying*/
 
 .education{
-    width: 994.69px;
-    margin-left: 63px;
+    height:620px;
+    width: 342px;
+    margin-left: 43px;
     margin-right: 21.31px;
-    padding-top: 29px;
+    padding-top: 12px;
+    margin-bottom: 14px;
 }
 
 .education h2{
     padding:0;
-    margin-left: 34px;
-    font-size: 33.88px;
+    margin-left: 25px;
+    font-size: 14px;
 }
 
 /*Styling education cards*/
@@ -321,15 +355,26 @@ container{
 .education container{
     padding:0;
     display: block;
-    height: 235px; /*should be 242.02 but need to figure what's wrong*/
-    width: 936.31px;
+    height: 461px;
+    width: 305px;
     background-color: #E7F0EC;
-    border-radius: 29.04px;
-    margin-top: 15px;
-    margin-left: 29px;
-    margin-right: 29.08px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 25px;
+    padding-bottom: 16px;
 }
 
+.education #one{
+    height: 172px;
+}
+
+.education #two{
+    height: 127px;
+}
+
+.education #three{
+    height: 93px;
+}
 .education .recent-education{
     background-color: #4A8B70;
 }
@@ -440,7 +485,8 @@ container{
 
 .tools{
     height: 847.06px;
-    width: 300.1px;
+    width: 345px;
+    margin-left: 43px;
     margin-right: 60.9px;
 }
 
@@ -548,8 +594,8 @@ svg{
 
 .experience{
     height: 640px;
-    width: 1316px;
-    margin-left: 63px;
+    width: 345px;
+    margin-left: 43px;
     margin-right: 61px;
     margin-bottom: 48.15px;
 }
@@ -562,6 +608,7 @@ div.experience{
 
 .experience{
     padding-top: 31px;
+    width:425px;
 }
 .experience h2{
     font-size: 33.88px;
@@ -571,12 +618,11 @@ div.experience{
 .experience container{
     display: block;
     height: 145px;
-    width: 1260px;
+    width: 319px;
     background-color: #E7F0EC;
     border-radius: 29.04px;
     margin-top: 30px;
     margin-left: 27px;
-    margin-right: 29px;
 }
 
 .experience .recent-experience{
@@ -763,9 +809,9 @@ div.experience{
 footer{
     background-color: #D76239;
     height: 128px;
-    width: 1300px;
+    width: 345px;
     border-radius: 29.04px;
-    margin-left: 59px;
+    margin-left: 43px;
     margin-right: 59px;
     margin-bottom: 40.85px;
     padding-top: 29.04px;
@@ -782,10 +828,14 @@ footer h2{
     padding-top: 12.2px;
 }
 
-footer p{
+footer a{
+    text-decoration: none;
     color:#FFFFFF;
     font-size: 24.2;
     font-weight:lighter;
     margin-right: 19.36px;
 }
-*/
+
+a:hover{
+    color:#5C5C5C;
+}
