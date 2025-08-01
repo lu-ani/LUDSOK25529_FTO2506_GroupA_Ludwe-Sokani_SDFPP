@@ -628,6 +628,72 @@ div.experience{
 .experience .recent-experience{
     background-color: #4A8B70;
 }
+.recent-experience .information-learnt{
+    display: flex;
+    margin-bottom: 39px;
+    margin-left: 10px;
+    margin-right: 39px;
+}
+
+.recent-experience .information{
+    margin-top: 19px;
+    margin-left: 25px;
+    margin-bottom: 25.75px;
+}
+
+.recent-experience h4 .course{
+    font-size: 19.36px;
+}
+
+.recent-experience h3{
+    font-size: 23.2px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.recent-experience .learnt{
+    margin-top: 19px;
+    margin-right: 39px;
+    margin-bottom:39px;
+}
+
+.recent-experience ul {
+    margin-top:0;
+}
+
+.recent-experience li{
+    font-size: 19.36px;
+}
+
+.recent-experience p, .recent-experience li, .recent-experience h4, .recent-experience h3{
+    color: #ffffff;
+}
+
+.recent-experience{
+    width:inherit;
+    font-weight: normal;
+    font-size: 19.36px;
+}
+
+.badge{
+    position: absolute;
+    height:20px;
+    width: max-content;
+    background-color: #D76239;
+    color:#ffffff;
+    border-radius: 142.79px;
+    margin-top: 19px;
+    margin-left: 1130px;
+    margin-bottom: 95.32px;
+}
+
+.recent-experience special{
+    font-size: 14.52px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
 /*End of experience box styling*/
 
 /*Footer styling*/
