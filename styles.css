@@ -804,4 +804,23 @@ footer{
     margin-left: 59px;
     margin-right: 59px;
     margin-bottom: 40.85px;
+    padding-top: 29.04px;
+    padding-left: 29.04px;
+}
+
+footer h2{
+    color:#FFFFFF;
+    font-size: 33.88px;
+}
+
+.details{
+    display: flex;
+    padding-top: 12.2px;
+}
+
+footer p{
+    color:#FFFFFF;
+    font-size: 24.2;
+    font-weight:lighter;
+    margin-right: 19.36px;
 }
