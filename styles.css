@@ -694,6 +694,55 @@ div.experience{
     padding-left: 8px;
     padding-right: 8px;
 }
+.experience-2 .information-learnt{
+    display: flex;
+    margin-bottom: 39px;
+    margin-left: 10px;
+    margin-right: 39px;
+}
+
+.experience-2 .information{
+    margin-top: 19px;
+    margin-left: 25px;
+    margin-bottom: 25.75px;
+}
+
+.experience-2 h4 .course{
+    font-size: 19.36px;
+}
+
+.experience-2 h3{
+    font-size: 23.2px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.experienc-2 .learnt{
+    margin-top: 19px;
+    margin-right: 39px;
+    margin-bottom:39px;
+}
+
+.experience-2 ul {
+    position: absolute;
+    margin-top:31.1px;
+    margin-left: -10px;
+    width: 943px;
+}
+
+.experience-2 li{
+    font-size: 19.36px;
+}
+
+.experience-2 p, .experience-2 li, .experience-2 h4, .experience-2 h3{
+    color: #000000;
+}
+
+.experience-2{
+    width:inherit;
+    font-weight: normal;
+    font-size: 19.36px;
+}
 /*End of experience box styling*/
 
 /*Footer styling*/
