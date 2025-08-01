@@ -3,6 +3,14 @@
     font-weight:none;
 }
 
+.responsibilities-hidden{
+    display: none;
+}
+
+.badge-hidden{
+    display: none;
+}
+
 h1,h2,h3,h4,h5,h6,p{
     margin:0;
     padding:0;
@@ -41,7 +49,9 @@ body{
 }
 
 /*Profile bio*/
-
+.bio-hidden{
+    display: none;
+}
 header{
     width: 994.69px;
     background-color: #fff;
