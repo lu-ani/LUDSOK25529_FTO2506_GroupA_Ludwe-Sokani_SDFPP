@@ -183,6 +183,25 @@ table{
     padding-right: 13.86px;
 }
 
+/*Placing each card in specific part of grid (l-r it goes: 1,3,2,4)*/
+
+.projects #one{
+     grid-area: 1 / 1 / 2 / 2; 
+}
+
+.projects #two{
+    grid-area: 2 / 1 / 3 / 2;
+    margin: 0;
+}
+
+.projects #three{
+    grid-area: 1 / 2 / 2 / 3;
+    margin:0;
+}
+
+.projects #four{
+    grid-area: 2 / 2 / 3 / 3;
+    margin:0;
 }
 
 .projects container{
