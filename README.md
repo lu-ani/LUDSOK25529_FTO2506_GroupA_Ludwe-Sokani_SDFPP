@@ -1,3 +1,7 @@
+Loom part 1: https://www.loom.com/share/85c9fcd9974647a4a77211a13352eb83?sid=2848894d-7c09-48c2-aff3-cc6ccd97d3d6
+Loom part 2: https://www.loom.com/share/51091b053f534c1b8d9a01a92053b342?sid=26d634e0-88dc-4c1c-b0c9-d87f56bd45da
+
+
 # 💼 SDFPP Resume Project
 
 Welcome to your first major **portfolio project** in the Software Development Program is a resume project (SDFPP). In this challenge, using a [Figma design file](https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1) as reference, you’ll create your very own online resume — a personal website that shows off your skills, experience, and code style using **HTML and CSS**.
