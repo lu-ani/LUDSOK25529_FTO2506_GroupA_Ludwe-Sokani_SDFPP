@@ -387,6 +387,21 @@ container{
     margin-left: 34px;
     font-size: 33.88px;
 }
+.education container{
+    padding:0;
+    display: block;
+    height: 235px; /*should be 242.02 but need to figure what's wrong*/
+    width: 936.31px;
+    background-color: #E7F0EC;
+    border-radius: 29.04px;
+    margin-top: 15px;
+    margin-left: 29px;
+    margin-right: 29.08px;
+}
+
+.education .recent-education{
+    background-color: #4A8B70;
+}
 }
 
 /*End of education box styling*/
