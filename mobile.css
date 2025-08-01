@@ -158,27 +158,31 @@ table{
 
 .projects{
     width: 342px;
+    height: 632px;
     margin-top: 15px;
     margin-left: 42px;
     margin-right: 58.92px;
-    margin-bottom: 48px;
-    padding-top: 35px;
-    padding-bottom: 43px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 17px;
 }
 
 .projects h2{
-    text-align: center;
-    font-size: 33.88px;
+    width: 57px;
+    margin-left: 25px;
+    font-size: 14px;
     font-weight:bold;
-    margin-bottom: 35px;
-    padding: 5.2px;
+    margin-bottom: 6.34px;
+    padding: 0px;
 }
 
 .projects-container{
-    height: 581px;
-    width: 1251px;
-    padding-left: 33.54px;
-    padding-right: 33.54px;
+    height: 300px;
+    width: 291.29px;
+    padding-left: 25.86px;
+    padding-right: 13.86px;
+}
+
 }
 
 .projects container{
