@@ -864,9 +864,14 @@ footer h2{
     padding-top: 12.2px;
 }
 
-footer p{
+footer a{
+    text-decoration: none;
     color:#FFFFFF;
     font-size: 24.2;
     font-weight:lighter;
     margin-right: 19.36px;
+}
+
+a:hover{
+    color:#5C5C5C;
 }
