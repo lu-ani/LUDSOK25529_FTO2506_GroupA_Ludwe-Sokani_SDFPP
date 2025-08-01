@@ -602,6 +602,32 @@ svg{
     margin-right: 61px;
     margin-bottom: 48.15px;
 }
+div.experience{
+    margin: 0;
+}
+
+.experience{
+    padding-top: 31px;
+}
+.experience h2{
+    font-size: 33.88px;
+    margin-left: 27px;
+}
+
+.experience container{
+    display: block;
+    height: 145px;
+    width: 1260px;
+    background-color: #E7F0EC;
+    border-radius: 29.04px;
+    margin-top: 30px;
+    margin-left: 27px;
+    margin-right: 29px;
+}
+
+.experience .recent-experience{
+    background-color: #4A8B70;
+}
 /*End of experience box styling*/
 
 /*Footer styling*/
