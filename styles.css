@@ -22,7 +22,7 @@ body{
     padding:0;
     margin:0;
     background-color: #cdcdcd;
-}
+} 
 
 /*Actual container stylings*/
 
@@ -36,7 +36,7 @@ body{
     margin: 59px;
     margin-right: 59px;
     margin-bottom: 47.9px;
-}
+} 
 
 /*Profile picture*/
 
@@ -46,7 +46,7 @@ body{
     object-fit: contain;
     border-radius: 29.04px;
     margin-right: 27px;
-}
+} 
 
 /*Profile bio*/
 .bio-hidden{
@@ -167,7 +167,7 @@ thead tbody tfoot{
     left:0; 
     /*Set percentage known*/
     width:100%;
-}
+} 
 
 .react-stat{
     position:relative;
@@ -254,7 +254,7 @@ thead tbody tfoot{
     padding-right: 24.2px;
     margin-right: 19px;
     margin-bottom: 19px;
-}
+} 
 
 /*End of skills box syling*/
 
@@ -269,7 +269,7 @@ thead tbody tfoot{
     margin-bottom: 48px;
     padding-top: 35px;
     padding-bottom: 43px;
-}
+} 
 
 .projects h2{
     text-align: center;
@@ -278,7 +278,7 @@ thead tbody tfoot{
     margin-bottom: 35px;
     padding: 5.2px;
 }
-
+ 
 .projects-container{
     height: 581px;
     width: 1251px;
@@ -294,7 +294,7 @@ thead tbody tfoot{
     height: inherit;
     width: 280px;
     margin-left: 39px;
-}
+} 
 
 .projects .recent-project{
     margin-left: 0;
@@ -309,7 +309,7 @@ container{
     flex-wrap: wrap;
     /*To remove base margins for wrap*/
     align-content:flex-start;
-}
+} 
 
 .recent-project .year-heart{
     height: 36px;
@@ -325,7 +325,7 @@ container{
     height: 26.62px;
     width: 22.71px;
     object-fit: cover;
-}
+} 
 
 .projects h3{
     font-size: 24.2px;
@@ -356,7 +356,7 @@ container{
     padding-top: 21px;
     padding-bottom:16px;
     padding-right: 15.38px;
-}
+} 
 
 .brief, .technologies, .responsibilities{
     margin-left: 19px;
@@ -381,7 +381,7 @@ container{
     display: flex;
     height: 847.06px;
     margin-bottom: 47.95px; 
-}
+} 
 
 /*Education box stying*/
 
@@ -425,7 +425,7 @@ container{
     margin-bottom: 37.25px;
     margin-left: 37.25px;
     margin-right: 30.2px;
-}
+} 
 
 .recent-education .information{
     height: 100.25px;
@@ -491,7 +491,7 @@ container{
     margin-bottom: 37.25px;
     margin-left: 37.25px;
     margin-right: 30.2px;
-}
+} 
 
 .education-3 .information{
     height: 129px;
@@ -549,7 +549,7 @@ container{
 svg{
     height: 41.14px;
     width: 41.14px;
-}
+} 
 
 /*languages box styling*/
 
@@ -557,7 +557,7 @@ svg{
     position: absolute;
     margin-top: -15px;
     margin-left: 103.98px;
-}
+} 
 
 .languages-icons{
     margin-left: 58px;
@@ -573,7 +573,7 @@ svg{
     column-gap: 39px;
     row-gap: 39px;
     background-color: #E7F0EC;
-}
+} 
 
 /*Design box styling*/
 
@@ -581,7 +581,7 @@ svg{
     position:absolute;
     margin-top: -15px;
     margin-left: 113.66px;
-}
+} 
 
 .design-icons{
     margin-left: 58px;
@@ -597,7 +597,7 @@ svg{
     column-gap: 36px;
     row-gap: 21px;;
     background-color: #E7F0EC;
-}
+} 
 
 /*Tools box styling*/
 
@@ -605,7 +605,7 @@ svg{
     position:absolute;
     margin-top: -15px;
     margin-left: 120.92px;
-}
+} 
 
 .tools-icons{
     margin-left: 58px;
@@ -621,7 +621,7 @@ svg{
     column-gap: 39px;
     row-gap: 38.72px;;
     background-color: #E7F0EC;
-}
+} 
 
 /*End of tools box styling*/
 /*End of education and tools styling*/
@@ -724,7 +724,7 @@ div.experience{
     margin-top: 19px;
     margin-left: 1130px;
     margin-bottom: 95.32px;
-}
+} 
 
 .recent-experience special{
     font-size: 14.52px;
@@ -852,7 +852,7 @@ footer{
     margin-bottom: 40.85px;
     padding-top: 29.04px;
     padding-left: 29.04px;
-}
+} 
 
 footer h2{
     color:#FFFFFF;
@@ -874,4 +874,4 @@ footer a{
 
 a:hover{
     color:#5C5C5C;
-}
+} 
